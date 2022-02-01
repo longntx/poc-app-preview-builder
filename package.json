@@ -5,7 +5,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prepare": "husky install"
   },
   "dependencies": {
     "next": "12.0.9",
@@ -13,7 +14,19 @@
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "ahooks": "^3.1.9",
+    "bootstrap": "4.3.1",
     "eslint": "8.7.0",
-    "eslint-config-next": "12.0.9"
+    "eslint-config-next": "12.0.9",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.2",
+    "lodash": "^4.17.21",
+    "nanoid": "^3.2.0",
+    "prettier": "^2.5.1",
+    "react-beautiful-dnd": "^13.1.0",
+    "sass": "1.32.13"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   }
 }

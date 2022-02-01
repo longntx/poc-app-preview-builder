@@ -1,0 +1,24 @@
+@import 'bootstrap';
+
+.home-button,
+.food,
+.rally,
+.sales {
+  padding: 20px;
+  width: 100%;
+  border: 5px solid cadetblue;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.main {
+  width: 390px;
+  height: 844px;
+  background: burlywood;
+}
