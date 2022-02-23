@@ -3,7 +3,7 @@ import App from 'next/app';
 import React from 'react';
 import { resetServerContext } from 'react-beautiful-dnd';
 import Head from 'next/head';
-import AppleTouchIcon from 'public/apple-touch-icon.png';
+import AppleTouchIcon from '../public/ZetJ-logos_transparent.png';
 
 function MyApp({ Component, pageProps }) {
   return (
